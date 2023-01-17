@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": ["airbnb", "airbnb/hooks"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/function-component-definition": [
+      1,
+      { "namedComponents": "arrow-function" }
+    ],
+    "no-console": 0,
+    "no-alert": 0,
+    "semi": ["error", "never"],
+    "semi-spacing": ["error"],
+    "semi-style": ["error", "first"],
+    "no-extra-semi": "error",
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error"
+  }
+}
